@@ -1,0 +1,99 @@
+//imports:
+import math; // imports all from math
+from math import *; // imports all from math
+from root.myMath import random; // imports random from root.myMath
+from math import random, floor; // imports random and floor from math
+from math import random => rand; // imports random as rand
+
+
+//define vars :
+const myConst = "Lorem Ipsum"; // defining constants
+var myVar : Int = 25, myStr : String; // defining two variables,
+
+var myArray : new Array (4); // array definition
+const myInitiatedArray = Array (11, 42, 90.25, 43);
+
+
+//class:
+class Point implements Movable with Plottable {
+    private var px: Int, py: Int;
+    Point (Int px = 0, Int py = 0) {
+        this.px = px;
+        this.py = py;
+    }
+    Int moveHorizontal (Int step) {
+        px += step;
+        return px;
+    }
+}
+var point : new Point(1 , 2);
+const origin : new Point();
+
+//loops:
+for (myVar = 0; myVar < count && count > 5; myVar++) {
+    sum += myVar;
+}
+
+for (var obj in myList ) {
+    newList.add (obj.name);
+}
+
+while (ii-(-ip)>0) {
+    op++;
+}
+do {
+    pp = pp- -8;
+} while (8+9+pp>10)
+
+
+//conditions:
+if (9- 9==0) {
+    point.getx()++;
+}
+elif (8+0==0) {
+    print("hi");
+}
+else {
+    rt = rt + -2;
+}
+
+
+//methods
+Double divide (Int num1, Int num2) {
+var result : Double;
+result = num1 / num2;
+    return result;
+}
+
+
+//exceptions
+try {
+    res = num1 / num2;
+}
+on DivisionByZeroException catch (ee) {
+print ("num 2 = 0");
+    print (ee);
+}
+catch (ee) {
+    print (ee, "oops.");
+}
+
+//some tests...
+var id: Int = 9812762000;
+var grade: Double = 18.25, bonus: Double = 0.5;
+print(stuInfo);
+point.getx ++;
+point().getx() ++;
+this.setx(6,point.x)++;
+
+
+var id: Int = 9812762000;
+var grade: Double = 18.25, bonus: Double = 0.5;
+var myVar : Int = 25;
+var stuInfo : String = "student ${id} has grade ${grade+bonus}";
+vari + -neg;
+
+
+9+8 * 7;
+(9+8) *  -7;
++ - -  1 * 7;

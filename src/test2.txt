@@ -1,0 +1,158 @@
+import com.sun.org.apache.bcel.internal.generic;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String args) {
+
+        var men : new Array (100);
+        var women : new Array (100);
+       
+        fs = " ff";
+
+ 
+        for (ik=0; ik < tt; ik++){
+
+            for (ii=0; ii < nn; ii++){
+                women.add(ii);
+            }
+        }
+    }
+}
+
+
+
+class Song {
+    private var title : String;
+    private var duration : Double;
+
+    Song(String title, Double duration) {
+        this.title = title;
+        this.duration = duration;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String toString() {
+        return this.title + this.duration;
+    }
+}
+
+ album.addSong("GUI");
+ album.addSong(5,6,7,8.6, 'r');
+
+
+
+public static Int less(Int nn){
+    var xx: Int = 0;
+    var xx: Int = 0;
+    var count : Int =0;
+    var sum : Int =0;
+
+    while (xx>0){
+        xx/=10;
+        count++;
+    }
+    for (ii=0; ii<count; ii++){
+        sum+=nn%10;
+        nn/=10;
+    }
+    return sum;
+}
+
+
+import java.util.Scanner;
+
+class diamond {
+    public static void main(String args) {
+        nn = scan.nextInt();
+        for (ii=1; ii<=(2*nn)+1; ii++)
+        {
+            for (jj=1; jj< nn-(ii - 1)/2+1; jj++){
+            
+
+                for (jj=1; jj<=ii; jj++){
+                    print(1,6,4,'b');
+                    }
+
+            }
+        }
+        for (ii=(2*nn)- 1; ii>=1 ; ii--){
+            for (jj=1; jj < nn- (ii- 1)/2+1; jj++){
+
+                for (jj=1; jj<=ii; jj++){
+
+                    ii++;
+                    print("bdf");
+                    print("hi");
+                }
+            }
+        }
+       
+    }
+}
+
+
+/*this class is written for the test*/
+//comments and stuff
+
+import math => Math;
+import java.util;
+from somewhere import *;
+from another import sth;
+class test
+{
+    Test(Int val= 5)
+    {
+        this.sth = sth;
+        xy = xy + wz;
+    }
+    public static void main(String args)
+    {
+        var sum:Int = 5;
+        for (ht = 0 ; ht < hq && ht > 5; ht++)
+        {
+            //here's a switch case!!
+            switch(hello)
+            {
+                case 5 :
+                    sb = fg * word;
+                    break;
+                default:
+                    word = test5 << 5;
+            }
+        }
+
+    }
+
+    var name : Double = 25.6;
+    const greetings = "how are you?";
+    const sth = "bye";
+
+    //another function
+    private Int anotherFunct()
+    {
+        try{
+            if (num1 > num2)
+            {
+                print("heey");
+            }
+            elif(num1 == num2)
+            {
+                var poi : new Point(3.5, 4);
+            }
+            else
+            {
+                px += word1;
+            }
+        }catch (ex)
+        {
+            print("catch me!");
+        }
+    }
+
+}
