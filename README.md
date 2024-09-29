@@ -1,7 +1,7 @@
 # Kotlin Parser with ANTLR
 
 ## Project Overview
-This project uses ANTLR to parse Kotlin code and build its abstract syntax tree (AST). The grammar file `proj.g4` defines the structure for recognizing various Kotlin statements like variable declarations, loops, class statements, methods, and more.
+This project uses ANTLR to parse Kotlin code and build its abstract syntax tree (AST). The grammar file `proj.g4` defines the structure for recognizing various Kotlin statements like variable declarations, loops, class statements, methods, and more.  This project was developed as the midterm project for the Finite Languages and Automata course.
 
 ## Grammar Overview
 The grammar supports parsing essential Kotlin constructs such as:
